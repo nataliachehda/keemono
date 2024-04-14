@@ -1,0 +1,8 @@
+.contenedorProductos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+}

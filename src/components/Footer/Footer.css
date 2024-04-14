@@ -1,0 +1,27 @@
+.footerIndex {
+  background-color: #A16C5C;
+}
+
+.text-uppercase {
+  color: #D8CCBC;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.icono {
+  width: 30px;
+  height: 30px;
+}
+
+body2 {
+  color: #D8CCBC;
+}

@@ -1,0 +1,14 @@
+.imgCarrito {
+    width: 4rem;
+
+}
+.widgetCarrito{
+    margin-right: 40px;
+    border-radius: 100%;
+}
+
+.cantidad {
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.3rem 0.5rem;
+}

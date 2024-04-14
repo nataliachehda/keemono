@@ -1,0 +1,27 @@
+customAppBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.brandLink {
+    display: flex;
+    padding-top: 20px;
+}
+
+.imgAbu {
+    width: 110px;
+    margin-right: 20px;
+}
+
+.navLinks {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navButton {
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -35,16 +35,27 @@ body2 {
     align-items: center;
     text-align: center;
   }
+  ul {
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+  }
 }
 
 .list-unstyled li {
   list-style-type: none;
-  align-items: center;
-  text-align: center;
 }
 
 ul {
-  align-items: center;
-  text-align: center;
   padding: 0px;
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }

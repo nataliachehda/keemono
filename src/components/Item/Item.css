@@ -56,14 +56,11 @@
 @media (max-width: 600px) {
   .cardProducto {
     width: 60%; 
-    /* margin: 0.7rem 0;
-    margin-left: 10px; */
     justify-content: center;
     align-self: center;
     text-align: center;
     margin-left: auto;
     display: flex;
     flex-direction: column;
-
   }
 }

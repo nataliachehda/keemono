@@ -1,8 +1,40 @@
 .contenedorProductos {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tarjetas {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .tarjetas {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.interiorcard {
   align-items: center;
   justify-content: center;
   text-align: center;
-  align-content: center;
-  align-self: center;
+  align-items: center;
+}
+
+.cardcontent {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.cardint {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }

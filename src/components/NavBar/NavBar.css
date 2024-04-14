@@ -1,27 +1,46 @@
-customAppBar {
+.customAppBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-.brandLink {
+  .brandLink {
     display: flex;
     padding-top: 20px;
-}
-
-.imgAbu {
+  }
+  
+  .imgAbu {
     width: 110px;
     margin-right: 20px;
-}
-
-.navLinks {
+  }
+  
+  .navLinks {
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
-}
-
-.navButton {
+  }
+  
+  .navButton {
     margin: 0 15px;
     font-size: 16px;
     font-weight: 600;
-}
+  }
+  
+  @media (max-width: 600px) {
+    .customAppBar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navLinks {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .navButton {
+      margin: 10px 0;
+    }
+  }
+  

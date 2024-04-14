@@ -14,7 +14,7 @@ const Item = ({ id, nombre, precio, img, stock }) => {
         className='imgProducto'
         sx={{ objectFit: 'contain' }}
       />
-      <CardContent sx={{ textAlign: 'center' }}>
+      <CardContent className='cardcontent' sx={{ textAlign: 'center' }}>
         <Typography variant="h5" sx={{marginBottom:'10px'}}>{nombre}</Typography>
         <Typography variant="body1">Price: ${precio}</Typography>
         <Typography variant="body2">ID: {id}</Typography>

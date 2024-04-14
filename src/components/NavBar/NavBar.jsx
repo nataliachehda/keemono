@@ -19,7 +19,7 @@ const NavBar = () => {
     <ThemeProvider theme={theme}>
       <AppBar position="static" className="customAppBar">
         <Toolbar className="toolbarContainer">
-          <Link to="/" className="brandLink"> {/* Aquí el cambio */}
+          <Link to="/" className="brandLink">
             <img className="imgAbu" src={imgAbu} alt="logo" />
           </Link>
           <div className="navLinks">
@@ -30,7 +30,7 @@ const NavBar = () => {
               Clothing
             </Button>
             <Button color="inherit" component={NavLink} to="/categoria/2" activeClassName="activeLink" className="navButton">
-            Accesories
+              Accesories
             </Button>
             <Button color="inherit" component={NavLink} to="/categoria/3" activeClassName="activeLink" className="navButton">
               Shoes

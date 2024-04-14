@@ -27,10 +27,10 @@ const ItemListContainer = () => {
 
     return (
         <>
-            <Typography variant="h4" align="center" gutterBottom sx={{ fontFamily: '"Orbitron", sans-serif', marginTop:'10px', }}>
+            <Typography className='marca' variant="h4" align="center" gutterBottom sx={{ fontFamily: '"Orbitron", sans-serif', marginTop:'10px', }}>
                 Keemono
             </Typography>
-            <ItemList productos={productos} />
+            <ItemList className='contiene' productos={productos} />
         </>
     );
 };

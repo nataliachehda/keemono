@@ -2,3 +2,16 @@ h2, h3{
     font-family: "Orbitron", sans-serif;  
     margin-top: 30px;
 }
+
+@media (max-width: 600px) {
+    .marca {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .contiene {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}

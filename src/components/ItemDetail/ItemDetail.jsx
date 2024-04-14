@@ -22,7 +22,7 @@ const ItemDetail = ({ id, nombre, precio, img, descripcion, stock }) => {
       <Typography variant="h6">Price: ${precio}</Typography>
       <Typography variant="subtitle1">ID: {id}</Typography>
       <Typography variant="body1"> {descripcion}</Typography>
-      <img src={img} alt={nombre} className='imgProducto' style={{ width: '300px', height: 'auto', marginBottom: '20px' }} />
+      <img src={img} alt={nombre} className='imgProducto' style={{ width: '275px', height: 'auto', marginBottom: '20px' }} />
 
       {agregarCantidad > 0 ? (
         <>

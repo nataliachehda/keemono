@@ -17,9 +17,9 @@ const Footer = () => {
                     </Grid>
                     <Grid item xs={12} md={3}>
                         <Typography variant="h5" component="h5" className="text-uppercase">Links</Typography>
-                        <ul className="list-unstyled mb-0">
+                        <ul  className="list-unstyled">
                             <li>
-                                <Link href="/" color="inherit" underline="none">Home</Link>
+                                <Link href="/" color="inherit" underline="none" textDecoration="none">Home</Link>
                             </li>
                             <li>
                                 <Link href="/about" color="inherit" underline="none">About Us</Link>

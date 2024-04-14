@@ -13,9 +13,9 @@
     padding-bottom: 30px;
     cursor: pointer;
     background: rgb(255, 255, 255);
-    border: 1px solid rgba(0, 0, 255, .2);
+    border: 1px solid rgba(231, 184, 152, 0.2);
     transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgba(99, 48, 13, 0.2);
 }
 .contenedorItem p{
     margin-right: 100px;
@@ -31,26 +31,27 @@ img {
 }
 
 .tarjeta:hover {
-    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+    box-shadow: -12px 12px 2px -1px rgba(170, 117, 97, 0.2);
 }
 
 @media (max-width: 767px) {
     .contenedorItem {
-      margin: 5px;
-      margin-left: 80px;
-      margin-right: 100px;
-      padding: 10px;
+      margin: 3px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 40px;
+      padding: 4px;
       text-align: center;
     }
     
     img {
-      width: 200px;
+      width: 180px;
     }
 
     .contenedorItem p {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
 }
 

@@ -11,7 +11,7 @@ const Cart = () => {
   if (cantidadTotal === 0) {
     return (
       <Paper elevation={3} className="carrito" sx={{ padding: '20px', borderRadius: '10px', backgroundColor: '#D59480' }}>
-        <Typography variant="h4" sx={{ marginBottom: '20px' }}>No products in the cart</Typography>
+        <Typography variant="h4" sx={{ marginBottom: '20px', marginRight: '20px', marginLeft: '20px', alignContent:'center', textAlign: 'center' }}>No products in the cart</Typography>
         <Button variant="contained" color="primary" component={Link} to="/">
           See products
         </Button>
